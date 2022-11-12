@@ -1,6 +1,7 @@
 import main from "../assets/images/interview.svg";
 import Wrapper from "../assets/wrappers/LandingPage";
 import { Logo } from "../components/";
+import { Link } from "react-router-dom";
 
 const Landing = () => {
   return (
@@ -21,7 +22,9 @@ const Landing = () => {
             only five centuries, but also the leap into electronic typesetting,
             remaining essentially unchanged.
           </p>
-          <button className="btn btn-hero">Login/Register</button>
+          <Link to="/register" className="btn btn-hero">
+            Login/Register
+          </Link>
         </div>
         <img src={main} alt="job hunt" className="img main-img" />
       </div>
