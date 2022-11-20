@@ -1,2 +1,4 @@
 /.DS_Store
 tutorial-README.md
+node_modules
+.env
