@@ -21,3 +21,5 @@ export const CREATE_JOB_ERROR = "CREATE_JOB_ERROR";
 
 export const GET_JOBS_BEGIN = "GET_JOBS_BEGIN";
 export const GET_JOBS_SUCCESS = "GET_JOBS_SUCCESS";
+
+export const SETI_EDIT_JOB = "SETI_EDIT_JOB";
