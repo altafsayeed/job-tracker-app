@@ -92,7 +92,6 @@ const AppProvider = ({ children }) => {
       return response;
     },
     (error) => {
-      // console.log(error.response);
       if (error.response.status === 401) {
         logoutUser();
       }
@@ -229,7 +228,7 @@ const AppProvider = ({ children }) => {
         },
       });
     } catch (error) {
-      console.log(error.response);
+      logoutUser();
     }
     clearAlert();
   };
@@ -267,7 +266,7 @@ const AppProvider = ({ children }) => {
       await authFetch.delete(`/jobs/${jobId}`);
       getJobs();
     } catch (error) {
-      console.log(error.response);
+      logoutUser();
     }
   };
 
@@ -283,8 +282,7 @@ const AppProvider = ({ children }) => {
         },
       });
     } catch (error) {
-      console.log(error.response);
-      //logoutUser()
+      logoutUser();
     }
   };
 
