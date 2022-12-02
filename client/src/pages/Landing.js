@@ -15,12 +15,13 @@ const Landing = () => {
             job <span>tracking</span> app
           </h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged.
+            Whether you are applying to 1 job or 20 jobs per day, Jobify is here
+            to help you keep track of all your job applications in one place.
+            Say goodbye to forgetting where you've applied to and digging
+            through your inbox. You can add new jobs that you've applied to,
+            view all of their statuses, and view your progress on your
+            dashboard. Jobify makes it easy and simple to organize your job
+            applications.
           </p>
           <Link to="/register" className="btn btn-hero">
             Login/Register
