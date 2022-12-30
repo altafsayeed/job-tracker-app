@@ -1,4 +1,4 @@
-import "animate.css";
+// import "animate.css";
 import main from "../assets/images/interview.svg";
 import Wrapper from "../assets/wrappers/LandingPage";
 import { Logo } from "../components/";
