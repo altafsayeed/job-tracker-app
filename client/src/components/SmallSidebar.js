@@ -13,14 +13,14 @@ const SmallSidebar = () => {
           showSidebar ? "sidebar-container show-sidebar" : "sidebar-container"
         }
       >
-        <div className="content">
+        <div className="content small-sidebar-content">
           <button type="button" className="close-btn" onClick={toggleSidebar}>
             <FaTimes />
           </button>
           <header>
             <Logo />
           </header>
-          <NavLinks />
+          <NavLinks toggleSidebar={toggleSidebar} />
         </div>
       </div>
     </Wrapper>

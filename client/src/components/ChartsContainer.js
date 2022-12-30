@@ -9,11 +9,15 @@ const ChartsContainer = () => {
   const { monthlyApplications: data } = useAppContext();
   return (
     <Wrapper>
-      <h4>Monthly Applications</h4>
-      <button type="button" onClick={() => setBarChart(!barChart)}>
-        {barChart ? "Area Chart" : "Bar Chart"}
+      <h4>Your Monthly Applications</h4>
+      <button
+        type="button"
+        className="switch-chart"
+        onClick={() => setBarChart(!barChart)}
+      >
+        Switch Chart View
       </button>
-      {barChart ? <BarChart data={data} /> : <AreaChart data={data} />}
+      {barChart ? <AreaChart data={data} /> : <BarChart data={data} />}
     </Wrapper>
   );
 };

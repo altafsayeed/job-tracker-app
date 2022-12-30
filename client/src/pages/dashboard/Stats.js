@@ -12,10 +12,10 @@ const Stats = () => {
     return <Loading center />;
   }
   return (
-    <>
+    <div className="stats-div">
       <StatsContainer />
       {monthlyApplications.length > 0 && <ChartsContainer />}
-    </>
+    </div>
   );
 };
 export default Stats;

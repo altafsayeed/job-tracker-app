@@ -28,6 +28,7 @@
     "nodemon": "^2.0.20"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",

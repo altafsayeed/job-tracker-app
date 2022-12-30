@@ -2,6 +2,7 @@ import main from "../assets/images/interview.svg";
 import Wrapper from "../assets/wrappers/LandingPage";
 import { Logo } from "../components/";
 import { Link } from "react-router-dom";
+import "animate.css";
 
 const Landing = () => {
   return (
@@ -10,7 +11,7 @@ const Landing = () => {
         <Logo />
       </nav>
       <div className="container page">
-        <div className="info">
+        <div className="info animate__animated animate__rollIn">
           <h1>
             job <span>tracking</span> app
           </h1>
@@ -27,7 +28,11 @@ const Landing = () => {
             Login/Register
           </Link>
         </div>
-        <img src={main} alt="job hunt" className="img main-img" />
+        <img
+          src={main}
+          alt="job hunt"
+          className="img main-img animate__animated animate__zoomInRight"
+        />
       </div>
     </Wrapper>
   );

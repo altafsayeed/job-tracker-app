@@ -38,7 +38,7 @@ const JobsContainer = () => {
   return (
     <Wrapper>
       <h5>
-        {totalJobs} job{jobs.length > 1 && "s"} found
+        You've applied to {totalJobs} job{jobs.length > 1 && "s"}:
       </h5>
       <div className="jobs">
         {jobs.map((job) => {

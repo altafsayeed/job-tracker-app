@@ -70,11 +70,53 @@ html {
 }
 
 body {
-  background: var(--backgroundColor);
+  /* background: var(--backgroundColor); */
+  background-image: url("assets/images/landingbg.jpg");
+  background-position-y: 120px;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: var(--bodyFont);
   font-weight: 400;
   line-height: 1.75;
   color: var(--textColor);
+}
+
+.stats-div {
+  background-color: white !important;
+}
+
+.sidebar-container .show-sidebar {
+  background: rgb(54, 71, 97) !important;
+  background: linear-gradient(
+    0deg,
+    rgba(54, 71, 97, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  ) !important;
+}
+
+.show-sidebar {
+  background: rgb(54, 71, 97) !important;
+  background: linear-gradient(
+    0deg,
+    rgba(54, 71, 97, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  ) !important;
+}
+
+.small-sidebar-content {
+  /* background: rgb(54, 71, 97) !important;
+  background: linear-gradient(
+    0deg,
+    rgba(54, 71, 97, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  ) !important; */
+  background-image: url("assets/images/landingbg.jpg") !important;
+  background-size: cover !important;
+  background-position-x: 780px !important;
+}
+
+.switch-chart {
+  text-decoration: underline;
 }
 
 p {
@@ -184,6 +226,10 @@ ul {
 .btn-danger:hover {
   background: var(--red-dark);
   color: var(--white);
+}
+
+.close-btn {
+  margin-top: 40px;
 }
 /* alerts */
 .alert {
