@@ -13,7 +13,7 @@ const Landing = () => {
       <div className="container page">
         <div className="info animate__animated animate__rollIn">
           <h1>
-            job <span>tracking</span> app
+            job <span>application</span> Manager
           </h1>
           <p>
             Whether you are applying to 1 job or 20 jobs per day, Jobify is here
