@@ -16,12 +16,12 @@ const Landing = () => {
             job <span>application</span> Manager
           </h1>
           <p>
-            Whether you are applying to 1 job or 20 jobs per day, Jobify is here
-            to help you keep track of all your job applications in one place.
-            Say goodbye to forgetting where you've applied to and digging
+            Whether you are applying to 1 job or 20 jobs per day, JobTrak is
+            here to help you keep track of all your job applications in one
+            place. Say goodbye to forgetting where you've applied to and digging
             through your inbox. You can add new jobs that you've applied to,
             view all of their statuses, and view your progress on your
-            dashboard. Jobify makes it easy and simple to organize your job
+            dashboard. JobTrak makes it easy and simple to organize your job
             applications.
           </p>
           <Link to="/register" className="btn btn-hero">
